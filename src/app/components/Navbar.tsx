@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
@@ -19,9 +21,14 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" href="/">
                 Inicio
-              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/currencies">
+                Monedas
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#features">

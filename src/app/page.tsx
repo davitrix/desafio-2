@@ -1,8 +1,8 @@
-import ContactSection from "./sections/ContactSection";
-import FeaturesSection from "./sections/FeaturesSection";
-import HeroSection from "./sections/HeroSection";
+import ContactSection from "./components/sections/ContactSection";
+import FeaturesSection from "./components/sections/FeaturesSection";
+import HeroSection from "./components/sections/HeroSection";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <HeroSection />

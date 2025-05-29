@@ -1,20 +1,47 @@
 @import "../../../../node_modules/bootstrap/scss/bootstrap";
 
 .hero {
-  background: linear-gradient(90deg, #f8fafc 0%, #e9ecef 100%);
+  background: linear-gradient(90deg, #0f172a 0%, #1e293b 100%);
   padding: 6rem 0 4rem 0;
-  text-align: center;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-content {
+  flex: 1 1 340px;
+  max-width: 540px;
+  text-align: left;
 }
 
 .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: #ffb800;
+}
+
+.hero-highlight {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
-  color: #6c757d;
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -25,10 +52,38 @@
   border-radius: 2rem;
   padding: 0.75rem 2rem;
   transition: background 0.2s;
+  border: none;
 }
 
 .btn-eldorado:hover {
   background: #ffd700;
+}
+
+.btn-outline-eldorado {
+  background: transparent;
+  color: #ffb800;
+  border: 2px solid #ffb800;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-outline-eldorado:hover {
+  background: #ffb800;
+  color: #222;
+}
+
+.hero-image {
+  flex: 1 1 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
 }
 
 .section {
