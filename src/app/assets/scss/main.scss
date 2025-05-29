@@ -1,0 +1,62 @@
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+.hero {
+  background: linear-gradient(90deg, #f8fafc 0%, #e9ecef 100%);
+  padding: 6rem 0 4rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+
+.btn-eldorado {
+  background: #ffb800;
+  color: #222;
+  font-weight: 600;
+  border-radius: 2rem;
+  padding: 0.75rem 2rem;
+  transition: background 0.2s;
+}
+
+.btn-eldorado:hover {
+  background: #ffd700;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  color: #ffb800;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1rem;
+}
